@@ -1,0 +1,15 @@
+{
+  "width":1080,"height":1920,"fps":30,"frames":450,
+  "brand":{"name":"VÉRTICE","label":"CAFÉ GELADO · 01","accent":"#ecfb78","ink":"#eff1e7","background":"#101710","font":"Arial, sans-serif"},
+  "scenes":[
+    {"id":"abertura","from":0,"frames":105,"lines":["O frio","energiza."],"detail":"COLD BREW / ORIGINAL","look":"hero","transition":"cut"},
+    {"id":"produto","from":105,"frames":114,"lines":["18 horas.","Zero pressa."],"detail":"EXTRAÇÃO A FRIO","look":"macro","transition":"flash"},
+    {"id":"sabor","from":219,"frames":111,"lines":["Intenso.","Suave."],"detail":"CACAU · CARAMELO · CAFÉ","look":"side","transition":"wipe"},
+    {"id":"cta","from":330,"frames":120,"lines":["Abra o","seu ritual."],"detail":"EXPERIMENTE VÉRTICE 01","look":"end","transition":"cut"}
+  ],
+  "assets":{"soundtrack":{"path":"demo.wav","credit":"Trilha e efeitos sintetizados para a demonstração","license":"Original do projeto"}},
+  "tracks":[{"asset":"soundtrack","from":0,"frames":450,"volume":1}],
+  "captions":[],
+  "depth":true,
+  "sync":[105,219,330]
+}
